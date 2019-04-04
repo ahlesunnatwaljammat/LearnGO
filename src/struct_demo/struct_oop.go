@@ -1,4 +1,4 @@
-package struct_opp
+package struct_demo
 
 type car struct {
 	Name string
