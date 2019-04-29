@@ -24,13 +24,20 @@ func setAgeByRef(person *Person) {
 	log.Println("setAgeByRef: ", person)
 }
 
+func (person *Person) update() {
+	person.Name = "Name is updated by Update method"
+}
+
 func main() {
 
 	log.Println("=================== Person by Value ===================")
 	person := Person{}
 	person.Name = "Noman ali abbasi"
+	person.update()
 	setAge(person)
 	log.Printf("%T, %v", person, person)
+
+
 
 	log.Println("=================== Person by Reference ===================")
 	person1 := &Person{}
