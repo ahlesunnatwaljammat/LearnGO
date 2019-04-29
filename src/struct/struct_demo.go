@@ -1,4 +1,4 @@
-package struct_opp
+package main
 
 import (
 	"log"
