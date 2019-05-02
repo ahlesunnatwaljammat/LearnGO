@@ -14,7 +14,6 @@
 
 GOBIN will used when developer run go install 
 
-
 ## Install all go dependencies 
 go get -u all //not working
 
