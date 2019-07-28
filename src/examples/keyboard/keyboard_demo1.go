@@ -5,15 +5,18 @@ import (
 	"github.com/eiannone/keyboard"
 )
 
+/**
+* This program only run in command
+ */
 func main() {
-	/*char, _, err := keyboard.GetSingleKey()
-	if (err != nil) {
+	char, _, err := keyboard.GetSingleKey()
+	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("You pressed: %q\r\n", char)*/
+	fmt.Printf("You pressed: %q\r\n", char)
 
-	err := keyboard.Open()
-	if err != nil {
+	erra := keyboard.Open()
+	if erra != nil {
 		panic(err)
 	}
 	defer keyboard.Close()

@@ -12,6 +12,15 @@
 <li>export GOBIN=/e/Learning/go-lang/workspace/LearnGO/bin</li>
 </ul>
 
+#### Setting dep package management
+
+<ul>
+<li>Goto src\example directory and type dep init</li>
+<li>To install dependencies which are being used by your project type dep ensure</li>
+</ul>
+
+
+
 GOBIN will used when developer run go install 
 
 ## Install all go dependencies 
