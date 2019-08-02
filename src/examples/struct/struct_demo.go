@@ -37,8 +37,6 @@ func main() {
 	setAge(person)
 	log.Printf("%T, %v", person, person)
 
-
-
 	log.Println("=================== Person by Reference ===================")
 	person1 := &Person{}
 	person1.Name = "Noman ali abbasi"
