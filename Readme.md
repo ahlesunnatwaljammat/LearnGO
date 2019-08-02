@@ -23,9 +23,6 @@
 
 GOBIN will used when developer run go install 
 
-## Install all go dependencies 
-go get -u all //not working
-
 ##A powerful URL router and dispatcher for golang
 go get -u github.com/gorilla/mux 
 <br>
@@ -33,6 +30,7 @@ https://www.youtube.com/watch?v=SonwZ6MF5BE
 
 ##The fantastic ORM library for Golang - http://gorm.io/
 go get -u github.com/jinzhu/gorm
+dep ensure -add github.com/jinzhu/gorm
 
 ## Go Humans! (formatters for units to human friendly sizes) 
 https://github.com/dustin/go-humanize

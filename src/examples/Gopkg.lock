@@ -18,6 +18,33 @@
   revision = "7169d0afeb4fed19d59b9c3478b0d6692e0c2668"
 
 [[projects]]
+  digest = "1:27f44b9a8c2995c35ec25a9948ffa96f997f8eedbc5bb34838f10dcf620aaee3"
+  name = "github.com/jinzhu/gorm"
+  packages = [
+    ".",
+    "dialects/sqlite",
+  ]
+  pruneopts = "UT"
+  revision = "836fb2c19d84dac7b0272958dfb9af7cf0d0ade4"
+  version = "v1.9.10"
+
+[[projects]]
+  digest = "1:01ed62f8f4f574d8aff1d88caee113700a2b44c42351943fa73cc1808f736a50"
+  name = "github.com/jinzhu/inflection"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "f5c5f50e6090ae76a29240b61ae2a90dd810112e"
+  version = "v1.0.0"
+
+[[projects]]
+  digest = "1:79e87abf06b873987dee86598950f5b51732ac454d5a5cab6445a14330e6c9e3"
+  name = "github.com/mattn/go-sqlite3"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "b612a2feea6aa87c6d052d9086572551df06497e"
+  version = "v1.11.0"
+
+[[projects]]
   branch = "master"
   digest = "1:f99b0e9035cf86cdc14cb2848308e831193d5e19ab9a23a8493cd925bdc3952b"
   name = "golang.org/x/sys"
@@ -42,6 +69,8 @@
   input-imports = [
     "github.com/dustin/go-humanize",
     "github.com/eiannone/keyboard",
+    "github.com/jinzhu/gorm",
+    "github.com/jinzhu/gorm/dialects/sqlite",
     "gopkg.in/gookit/color.v1",
   ]
   solver-name = "gps-cdcl"
