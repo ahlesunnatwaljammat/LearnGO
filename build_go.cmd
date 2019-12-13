@@ -4,4 +4,8 @@ set GOBIN=%cd%/bin
 
 set PATH=%PATH%;%GOROOT%\bin
 
-go -v
+cd src/examples
+
+dep ensure
+
+cd %GOPATH%

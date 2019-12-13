@@ -59,3 +59,6 @@ https://www.youtube.com/watch?v=yKQOunhhf4A&list=PL8xg31LTUcFLTDowOS5MiGRVTI7_WB
 https://willhaley.com/blog/private-and-public-visibility-with-go-packages/
 <br>
 https://getuikit.com
+
+# Print utility
+http://www.columbia.edu/~em36/PDFtoPrinter.exe

@@ -2,6 +2,22 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:e3aee930949dbf7d3e28901f889b5c52928f9dfff1d14d27d3ee5abb93441bc9"
+  name = "github.com/alexbrainman/printer"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "345afe414dee601bf59b3ed4fb3e0282a51a5d43"
+
+[[projects]]
+  digest = "1:50e893a85575fa48dc4982a279e50e2fd8b74e4f7c587860c1e25c77083b8125"
+  name = "github.com/cihub/seelog"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "d2c6e5aa9fbfdd1c624e140287063c7730654115"
+  version = "v2.6"
+
+[[projects]]
   digest = "1:6f9339c912bbdda81302633ad7e99a28dfa5a639c864061f1929510a9a64aa74"
   name = "github.com/dustin/go-humanize"
   packages = ["."]
@@ -37,12 +53,86 @@
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:f2ef06d4dba3dd33bd77c5bc076801c1d3159b64630fc0143f7e072ec127b7e6"
+  name = "github.com/jung-kurt/gofpdf"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "49e44c73f28fbc4ea0b011c7d4078d0a1523e44f"
+  version = "v12.13.5"
+
+[[projects]]
+  digest = "1:12cb143f2148bf54bcd9fe622abac17325e85eeb1d84b8ec6caf1c80232108fd"
+  name = "github.com/lib/pq"
+  packages = [
+    ".",
+    "oid",
+    "scram",
+  ]
+  pruneopts = "UT"
+  revision = "3427c32cb71afc948325f299f040e53c1dd78979"
+  version = "v1.2.0"
+
+[[projects]]
   digest = "1:79e87abf06b873987dee86598950f5b51732ac454d5a5cab6445a14330e6c9e3"
   name = "github.com/mattn/go-sqlite3"
   packages = ["."]
   pruneopts = "UT"
   revision = "b612a2feea6aa87c6d052d9086572551df06497e"
   version = "v1.11.0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:2a45c5529cdf9a4eb025b2131c5af826e9655f7bfaca9ffd7033fd8a86c5f29d"
+  name = "github.com/mikeshimura/dbflute"
+  packages = [
+    "df",
+    "log",
+  ]
+  pruneopts = "UT"
+  revision = "0fbcf5595ee864a48bf52c6cfd4683755d009dcd"
+
+[[projects]]
+  branch = "master"
+  digest = "1:0c4c5d6bb29d0c94cb7828fd36205a92c2a724f9afa5f699671c9ff28847fbec"
+  name = "github.com/mikeshimura/goreport"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "1be22c2ece7d47373ad4068b74a2ed3705c36a16"
+
+[[projects]]
+  digest = "1:a38fbc8c6ba18fbf5201a955e79c247ae76d4b3fda74298007b91ffc1d7e2306"
+  name = "github.com/phpdave11/gofpdi"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "8fd334be171e053f2f72f07724f6861c1e3d6fee"
+  version = "v1.0.8"
+
+[[projects]]
+  digest = "1:cf31692c14422fa27c83a05292eb5cbe0fb2775972e8f1f8446a71549bd8980b"
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
+  version = "v0.8.1"
+
+[[projects]]
+  digest = "1:d2e528aca0d013a010f148c93613b01be8507d1a67eeee2c8492abcae45eeaa0"
+  name = "github.com/signintech/gopdf"
+  packages = [
+    ".",
+    "fontmaker/core",
+  ]
+  pruneopts = "UT"
+  revision = "b6cb24e505cccf969023a75ea1660630af231dbd"
+  version = "v0.9.4"
+
+[[projects]]
+  branch = "master"
+  digest = "1:28f46eae9e3a794bb0dbd84d75fde21ee329445c150772349b05bd5750a733d0"
+  name = "github.com/streamrail/concurrent-map"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "8bf1e9bacbf65b10c81d0f4314cf2b1ebef728b5"
 
 [[projects]]
   branch = "master"
@@ -67,10 +157,13 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/alexbrainman/printer",
     "github.com/dustin/go-humanize",
     "github.com/eiannone/keyboard",
     "github.com/jinzhu/gorm",
     "github.com/jinzhu/gorm/dialects/sqlite",
+    "github.com/jung-kurt/gofpdf",
+    "github.com/mikeshimura/goreport",
     "gopkg.in/gookit/color.v1",
   ]
   solver-name = "gps-cdcl"
